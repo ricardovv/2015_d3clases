@@ -1,0 +1,15 @@
+html, body {
+    font-size: 10px;
+    background: grey;
+}
+    
+h1 {
+    color: yellow;
+    padding: 20px;
+    font-size: 4em;
+}
+
+.container {
+    border: 1px solid white;  
+    padding: 10px; 
+}

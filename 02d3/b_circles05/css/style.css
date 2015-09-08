@@ -1,0 +1,25 @@
+html, body {
+    font-size: 10px;
+}
+    
+#canvas1 {
+    display:block;  
+    background: yellow;
+}
+
+#canvas2 {
+    display:block;  
+    background: blue;
+}
+
+
+.ejes path,
+.ejes line {
+    fill: none;
+    stroke: blue;
+    shape-rendering: crispEdges;
+}
+.ejes text {
+    font-family: sans-serif;
+    font-size: 14px;
+}

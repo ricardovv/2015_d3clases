@@ -1,0 +1,29 @@
+{
+ "name": "CONSTITUCION",
+ "children": 
+ [
+    {
+     "name": "CAPITULO 01",
+     "children": 
+        [
+          { "name": "ART. 01", "size": 20 },
+          { "name": "ART. 02", "size": 10 },
+          { "name": "ART. 03", "size": 30 }
+        ]
+    },
+    {
+     "name": "CAPITULO 02",
+     "children": 
+        [
+          { "name": "ART. 04", "size": 20 },
+          { "name": "ART. 05", "size": 70 },
+          { "name": "ART. 06", "size": 10 },
+          { "name": "ART. 07", "size": 30 }
+        ]
+    }
+
+
+
+
+ ]
+}

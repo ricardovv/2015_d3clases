@@ -1,0 +1,16 @@
+body {
+  background-color:lightgray;
+}
+
+h1   {
+  color:blue;
+}
+
+#caja {
+	width: 600px;
+	padding: 0px;
+	border: red solid 10px;
+	margin-left: 75px;
+}
+ 
+

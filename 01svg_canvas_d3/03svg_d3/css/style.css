@@ -1,0 +1,27 @@
+body {
+	background: yellow;
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 24px;
+	color: brown;
+}
+
+#caja {
+	position: absolute;
+	left: 50px ;
+	/*font-size: 50px;*/
+}
+
+.container { 
+	border: 10px solid blue;
+	width: 650px;
+	height: 450px;
+	padding:20px; 
+	background: white;
+}
+
+
+
+

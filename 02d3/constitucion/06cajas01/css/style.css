@@ -1,0 +1,13 @@
+html, body {
+    font-size: 10px;
+}
+    
+#canvas1 {
+    display:block;  
+    background: yellow;
+}
+
+#canvas2 {
+    display:block;  
+    background: blue;
+}
