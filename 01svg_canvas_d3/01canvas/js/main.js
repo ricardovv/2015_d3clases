@@ -16,7 +16,7 @@ window.onload = function() {
         for (var i=0; i <50; i++) {
             context1.beginPath();//dice comenzarás a dibujar un trazado
             context1.moveTo(0,height/2);// muevete al x, y
-            context1.lineTo(width,9*i);// desde allí, dibuja líneas hasta los otros x e y
+            context1.lineTo(width/2,5*i);// desde allí, dibuja líneas hasta los otros x e y
             context1.strokeStyle= "red";// pinta las líneas de color
             context1.stroke();//pone todo en la mesa...
         }
@@ -30,7 +30,7 @@ window.onload = function() {
         h       = canvas2.height = window.innerHeight/2;//alto del canvasa amarillo dividido en 2
         
         //Este ciclo crea las líneas
-        for (var i=0; i <50; i++) {
+        for (var i=0; i <20; i++) {
             c2.beginPath();//dice comenzarás a dibujar un trazado
             c2.moveTo(0,9*i);// muevete al x, y
             c2.lineTo(w,9*i);// desde allí, dibuja líneas hasta los otros x e y
@@ -45,7 +45,7 @@ window.onload = function() {
             c2.fillStyle = "green";
             c2.fill();
             c2.lineWidth = 10;
-            c2.strokeStyle = 'orange';
+            c2.strokeStyle = 'yellow';
             c2.stroke();
         }
 

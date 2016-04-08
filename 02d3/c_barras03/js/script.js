@@ -12,7 +12,7 @@ var w = 600,
 var colors = d3.scale.linear()
 			//.domain([0, bardata.length])
 			.domain([0, d3.max(bardata)])
-			.range(['blue', 'red'])//'#aaaacc', '#ffffaa'
+			.range(['green', 'green'])//'#aaaacc', '#ffffaa'
 
 //funciones para la escala y rango maximo en y
 var yScale = d3.scale.linear()

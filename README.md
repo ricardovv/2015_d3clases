@@ -1,6 +1,6 @@
 # 2015_infovisclases
 
-###Ricardo Vega M. / @ricardov_cl / [Ricardov.cl](http://www.riardov.cl)
+###Ricardo Vega M. / @ricardov_cl / [Ricardov.cl](http://www.ricardov.cl)
 
 Clases Visualizacion de Informacion.
 

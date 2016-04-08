@@ -20,7 +20,7 @@ var datos = [
 
  //nuevas varibles para area dbujo
  //4- Borde
-var w = 1100, h = 500,  borde = 50;
+var w = 1100, h = 500,  borde = 90;
 
 //crea un contenedor para el grafico, crea dentro un svg
 var chart = d3.select('#caja')

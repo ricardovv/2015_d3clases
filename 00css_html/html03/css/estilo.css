@@ -1,0 +1,12 @@
+body {
+    background: yellow;
+}
+h1 {
+    background: gray;
+    width: 200px;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+}
+.delgato {
+    border: 2px solid red;
+}

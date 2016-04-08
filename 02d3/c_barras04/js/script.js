@@ -7,7 +7,7 @@ var bardata = [];
 
 
 // I N I C I O - - - - - - - - - - - - - - - - - 
-d3.tsv('datos/datos.tsv', function(data) {
+d3.tsv('datos/datos.csv', function(data) {
 
 for(key in data) {
 		bardata.push(data[key].valores)
