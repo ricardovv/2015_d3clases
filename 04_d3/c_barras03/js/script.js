@@ -7,12 +7,12 @@ var w = 600,
 	h = 400,
 	barW = 50,
 	barSpacer = 1,
-	color = 'yellow';
+	color = 'lightblue';
 
 var colors = d3.scale.linear()
 			//.domain([0, bardata.length])
 			.domain([0, d3.max(bardata)])
-			.range(['green', 'green'])//'#aaaacc', '#ffffaa'
+			.range(['orange', 'red'])//'#aaaacc', '#ffffaa'
 
 //funciones para la escala y rango maximo en y
 var yScale = d3.scale.linear()
@@ -89,6 +89,7 @@ d3.select('svg').append("text")
 	.style('fill', 'brown')
 	.style('font-size', "20px")
 	.text("Este es el Titulo en el svg")
+
 
 //Coloca ext para un titulo c variables
 var	txt = "Un texto cualquiera dentro del svg";

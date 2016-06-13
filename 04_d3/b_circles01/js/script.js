@@ -4,9 +4,10 @@ var datos = [0, 60, 44, 15, 22, 51, 33, 48, 10];
 
 
 //crea un contenedor para el grafico, crea dentro un svg
+var w = 600;
 var chart = d3.select('#caja')
 			.append('svg')
-			.attr('width', 400)
+			.attr('width', w)
 			.attr('height', 200)
 			.style("background", "yellow")
  			;

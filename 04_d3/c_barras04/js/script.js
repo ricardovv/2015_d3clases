@@ -1,23 +1,37 @@
-//Ejemplo deRay Villalobos
+//Ejemplo de Ray Villalobos
 
 
-//var bardata = [30, 40, 15, 90, 35, 60, 10, 70, 15, 50, 20, 65, 15, 60, 90, 35,];
+///var bardata = [30, 40, 15, 90, 35, 60, 10, 70, 15, 50, 20, 65, 15, 60, 90, 35,];
 
 var bardata = [];
 
 
 // I N I C I O - - - - - - - - - - - - - - - - - 
-d3.tsv('datos/datos.csv', function(data) {
+d3.tsv('datos.tsv', function(data) {
+ console.log(data);
+	
+ 	//ojo, si se corre localente no cargara los datos pues requiere leerlos desde un servidor.
+ 	// si se ve en la consola, arrojara este error. "d3.min.js:1 XMLHttpRequest cannot load" 
+	 for(key in data) {
+	 	bardata.push(data[key].valores);
+	 }
+ 
 
-for(key in data) {
-		bardata.push(data[key].valores)
-	}
+//generado aleatoriamente para probar si empuja datos a bardata
+/*
+for (var i = 0; i < 10; i++) {
+	bardata.push( Math.round(Math.random()*100+10) );
+}
+*/
 
 	var w = 600,
 		h = 400,
 		barW = 50,
 		barSpacer = 1,
-		color = 'yellow';
+		color = 'lightblue';
+
+
+
 
 	var colors = d3.scale.linear()
 				//.domain([0, bardata.length])
@@ -98,7 +112,7 @@ for(key in data) {
 		.attr('y', 15)
 		.style('fill', 'brown')
 		.style('font-size', "20px")
-		.text("Este es el Titulo en el svg")
+		.text("Titulo svg, Ejercicio con datos externos, debe correr en servidor")
 
 	//Coloca ext para un titulo c variables
 	var	txt = "Un texto cualquiera dentro del svg";
@@ -116,6 +130,6 @@ for(key in data) {
 
 
 // F I N A L  - - - - - - - - - - - - - - - - - 
-})	
+})
 
 

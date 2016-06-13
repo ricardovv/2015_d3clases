@@ -21,6 +21,14 @@ var datos = [
 	{
 		nombre: "Juan",
 		valor: 37, 
+	},
+	{
+		nombre: "GATO",
+		valor: 27, 
+	},
+	{
+		nombre: "Perro",
+		valor: 127, 
 	}
 ]
 
@@ -46,12 +54,6 @@ var myChart = d3.select('#grafico').append('svg')
 			return colores(i);
 		})
 		.attr('d', arc)
-
-
-
-
-
-
 
 
 d3.select('#grafico').append('svg')
